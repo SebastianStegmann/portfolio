@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Nav bar -->
+    <nav class="navbar">
+        <ul id="logo">
+            <li><a href="index.html">Sebastian Stegmann</a></li>
+        </ul>
+        <ul id="gemmobil" class="menuline">
+            <!-- <li id="gemmobil" style="display: none;"></li> -->
+            <li><a href="index.html" class="word">Forside</a></li>
+            <li><span> |</span></li>
+            <li><a href="portfolie.html" class="word">Portfolie</a></li>
+            <li><span> |</span></li>
+            <li><a href="about.html" class="word">Om mig</a></li>
+            <li><span> |</span></li>
+            <li><a href="contact.html" class="word">kontakt</a></li>
+
+        </ul>
+        <ul id="gemdesktop" class="menuline">
+            <li><a href="portfolie.html" class="word">Portfolie</a></li>
+            <li><span> |</span></li>
+            <li><a href="about.html" class="word">Om mig</a></li>
+            <li><span> |</span></li>
+            <li><a href="contact.html" class="word">kontakt</a></li>
+        </ul>
+    </nav>
+    <h3 id="projekter">Kontakt</h3>
+    <div class="contact">
+        <div id="navnemail">
+            <div>
+                <label for="navn">Navn</label>
+                <br>
+                <input type="text" id="navn" placeholder="Navn">
+            </div>
+            <!-- id nummer er unnikt, kan ikke være flere af den samme på samme side. Bruges når f.eks. javascript skal referere til noget -->
+            <!-- option z for wrap text -->
+            <div>
+                <label for="navn">Email</label>
+                <br>
+                <input type="email" id=email name="email" placeholder="Emailadresse">
+            </div>
+        </div>
+
+        <div>
+            <label for="navn">Emne</label>
+            <br>
+            <input type="text" id="emne" placeholder="Emne">
+        </div>
+        <div>
+            <label for="message">Besked</label>
+            <br>
+            <textarea id="message" name="message"></textarea>
+        </div>
+        <!-- id må kun være et sted, ikke både i labet og textarea/input -->
+
+
+        <!-- eventuelt skal id i de 3 inputs ændres til at være forskellige id. medlemskab0, medlemskab1, medlemskab3 -->
+        <!-- command d for at markere samme ord længere nede i teksten tryk på test
+test
+test -->
+        <div>
+            <input type="submit" name="submit" id="submit">
+        </div>
+    </div>
+
+</body>
